@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 WSGI config for password_generator project.
 
@@ -14,3 +15,21 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'password_generator.settings')
 
 application = get_wsgi_application()
+=======
+"""
+WSGI config for password_generator project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/4.2/howto/deployment/wsgi/
+"""
+
+import os
+
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'password_generator.settings')
+
+application = get_wsgi_application()
+>>>>>>> 0c5333805cabecea7ff6e9932cf2628ccb127648
